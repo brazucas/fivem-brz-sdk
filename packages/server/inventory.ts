@@ -2,8 +2,8 @@ import {
   oxInventoryAdapter as oxInventoryServerAdapter,
   qbCoreAdapter as qbCoreServerAdapter,
 } from "./adapters/inventory.adapter";
-import { InventoryServerAdapter } from "./modules/shared/inventory";
-import { getAdapter } from "./modules/shared/thirdparties";
+import { InventoryServerAdapter } from "@brz-fivem-sdk/common/inventory";
+import { getAdapter } from "@brz-fivem-sdk/common/thirdparties";
 
 declare const SETTINGS: any;
 

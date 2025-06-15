@@ -1,4 +1,4 @@
-import { Delay } from "../../nodejs";
+import { Delay } from "@brz-fivem-sdk/common/helpers";
 
 export const createPed: (
   ...args: Parameters<typeof CreatePed>

@@ -1,9 +1,9 @@
-import { getAdapter } from "../shared/thirdparties";
+import { getAdapter } from "@brz-fivem-sdk/common/thirdparties";
 import {
   qbCoreAdapter as qbCoreClientAdapter,
   oxLibAdapter as oxLibAClientdapter,
-} from "../client/adapters/notification.adapter";
-import { NotificationClientAdapter } from "../shared/notification";
+} from "./adapters/notification.adapter";
+import { NotificationClientAdapter } from "@brz-fivem-sdk/common/notification";
 
 declare const SETTINGS: any;
 

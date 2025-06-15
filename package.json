@@ -2,10 +2,13 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "prepublish:client": "npm version patch --workspace packages/client",
+    "publish:client": "npm publish --workspace packages/client --access public",
     "prepublish:server": "npm version patch --workspace packages/server",
     "publish:server": "npm publish --workspace packages/server --access public",
-    "prebuild": "rimraf packages/server/modules",
-    "build": "node build/build-bundle.js"
+    "prepublish:common": "npm version patch --workspace packages/common",
+    "publish:common": "npm publish --workspace packages/common --access public",
+    "publish:all": "npm run publish:client && npm run publish:server && npm run publish:common"
   },
   "workspaces": [
     "packages/*"

@@ -2,8 +2,8 @@ import {
   oxLibAdapter as oxLibAServerdapter,
   qbCoreAdapter as qbCoreServerAdapter,
 } from "./adapters/notification.adapter";
-import { NotificationServerAdapter } from "./modules/shared/notification";
-import { getAdapter } from "./modules/shared/thirdparties";
+import { NotificationServerAdapter } from "@brz-fivem-sdk/common/notification";
+import { getAdapter } from "@brz-fivem-sdk/common/thirdparties";
 
 declare const SETTINGS: any;
 

@@ -1,11 +1,20 @@
 {
   "name": "@brz-fivem-sdk/client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Pedro Papadopolis",
   "license": "MIT",
   "description": "BRZ SDK for FiveM server-side development",
   "private": false,
-  "exports": [
-    "./*"
-  ]
+  "exports": {
+    "./helpers/cfx": "./helpers/cfx.ts",
+    "./helpers/streaming": "./helpers/streaming.ts",
+    "./notification": "./notification.ts",
+    "./inventory": "./inventory.ts",
+    "./package.json": "./package.json",
+    "./adapters/inventory.adapter.ts": "./adapters/inventory.adapter.ts",
+    "./adapters/notification.adapter.ts": "./adapters/notification.adapter.ts"
+  },
+  "dependencies": {
+    "@brz-fivem-sdk/common": "^0.1.1"
+  }
 }

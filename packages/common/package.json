@@ -1,22 +1,21 @@
 {
-  "name": "@brz-fivem-sdk/server",
-  "version": "0.1.5",
+  "name": "@brz-fivem-sdk/common",
+  "version": "0.1.2",
   "author": "Pedro Papadopolis",
   "license": "MIT",
-  "description": "BRZ SDK for FiveM server-side development",
+  "description": "BRZ SDK for FiveM development",
   "repository": {
     "type": "git",
     "url": "https://github.com/brazucas/fivem-brz-sdk.git"
   },
   "private": false,
   "exports": {
-    "./helpers/cfx": "./helpers/cfx.ts",
+    "./helpers": "./helpers.ts",
+    "./locale": "./locale.types.ts",
+    "./cfx": "./cfx.ts",
     "./notification": "./notification.ts",
     "./inventory": "./inventory.ts",
     "./package.json": "./package.json",
-    "./tsconfig.json": "./tsconfig.json"
-  },
-  "dependencies": {
-    "@brz-fivem-sdk/common": "^0.1.1"
+    "./thirdparties": "./thirdparties.ts"
   }
 }
