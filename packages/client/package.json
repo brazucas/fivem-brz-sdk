@@ -1,6 +1,10 @@
 {
-  "name": "@brz-sdk/client",
+  "name": "@brz-fivem-sdk/client",
   "version": "0.1.0",
+  "author": "Pedro Papadopolis",
+  "license": "MIT",
+  "description": "BRZ SDK for FiveM server-side development",
+  "private": false,
   "exports": [
     "./*"
   ]
