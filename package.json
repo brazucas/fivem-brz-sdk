@@ -1,11 +1,11 @@
 {
-  "name": "brz-lib",
-  "version": "1.0.0",
-  "description": "Lib to help building amazing BRZ-based scripts",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@citizenfx/client": "^2.0.7669-1",
     "@citizenfx/server": "^2.0.7669-1",

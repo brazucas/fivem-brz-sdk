@@ -9,8 +9,8 @@
     "types": ["@types/node", "@types/jest"],
     "lib": ["ES2020"],
     "paths": {
-      "@/*": ["./*"]
+      "@brz-sdk/*": ["./src/*"]
     }
   },
-  "include": ["./**/*"]
+  "include": ["./src/**/*"]
 }

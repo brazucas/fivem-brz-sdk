@@ -7,8 +7,13 @@
     "allowSyntheticDefaultImports": true,
     "module": "CommonJS",
     "types": ["@citizenfx/server", "@types/node"],
-    "lib": ["ES2020"]
+    "lib": ["ES2020"],
+    "paths": {
+      "@shared/*": ["../../src/shared/*"]
+    },
+    "sourceMap": true,
+    "declaration": true
   },
-  "include": ["./**/*", "../nodejs.ts"],
+  "include": ["./**/*", "../nodejs.ts", "../../src/shared/**/*", "../../build"],
   "exclude": ["**/*.test.ts", "**/*.spec.ts"]
 }
