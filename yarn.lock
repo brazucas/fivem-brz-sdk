@@ -289,7 +289,7 @@
   resolved "file:packages/client"
 
 "@brz-fivem-sdk/server@file:C:\\Code\\BRZ\\fivem-qbcore\\txdata\\fivem-brz-sdk\\packages\\server":
-  version "0.1.1"
+  version "0.1.2"
   resolved "file:packages/server"
 
 "@citizenfx/client@^2.0.7669-1":

@@ -1,6 +1,6 @@
 {
   "name": "@brz-fivem-sdk/server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Pedro Papadopolis",
   "license": "MIT",
   "description": "BRZ SDK for FiveM server-side development",
