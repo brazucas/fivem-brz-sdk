@@ -2,8 +2,8 @@ import {
   oxLibAdapter as oxLibAServerdapter,
   qbCoreAdapter as qbCoreServerAdapter,
 } from "./adapters/notification.adapter";
-import { NotificationServerAdapter } from "@shared/notification";
-import { getAdapter } from "@shared/thirdparties";
+import { NotificationServerAdapter } from "./modules/shared/notification";
+import { getAdapter } from "./modules/shared/thirdparties";
 
 declare const SETTINGS: any;
 

@@ -1,11 +1,15 @@
 {
   "name": "@brz-fivem-sdk/server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Pedro Papadopolis",
   "license": "MIT",
   "description": "BRZ SDK for FiveM server-side development",
   "private": false,
-  "exports": [
-    "./*"
-  ]
+  "exports": {
+    "./helpers/cfx": "./helpers/cfx.ts",
+    "./notification": "./notification.ts",
+    "./inventory": "./inventory.ts",
+    "./package.json": "./package.json",
+    "./tsconfig.json": "./tsconfig.json"
+  }
 }

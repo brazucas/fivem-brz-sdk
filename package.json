@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish:server": "npm version patch --workspace packages/server",
+    "publish:server": "npm publish --workspace packages/server --access public"
   },
   "workspaces": [
     "packages/*"

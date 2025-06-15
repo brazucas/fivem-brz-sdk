@@ -2,8 +2,8 @@ import {
   oxInventoryAdapter as oxInventoryServerAdapter,
   qbCoreAdapter as qbCoreServerAdapter,
 } from "./adapters/inventory.adapter";
-import { InventoryServerAdapter } from "@shared/inventory";
-import { getAdapter } from "@shared/thirdparties";
+import { InventoryServerAdapter } from "./modules/shared/inventory";
+import { getAdapter } from "./modules/shared/thirdparties";
 
 declare const SETTINGS: any;
 

@@ -8,12 +8,9 @@
     "module": "CommonJS",
     "types": ["@citizenfx/server", "@types/node"],
     "lib": ["ES2020"],
-    "paths": {
-      "@shared/*": ["../../src/shared/*"]
-    },
     "sourceMap": true,
     "declaration": true
   },
-  "include": ["./**/*", "../nodejs.ts", "../../src/shared/**/*", "../../build"],
+  "include": ["./**/*", "../../build"],
   "exclude": ["**/*.test.ts", "**/*.spec.ts"]
 }
