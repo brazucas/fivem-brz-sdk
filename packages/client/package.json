@@ -12,7 +12,9 @@
     "./inventory": "./inventory.ts",
     "./package.json": "./package.json",
     "./adapters/inventory.adapter.ts": "./adapters/inventory.adapter.ts",
-    "./adapters/notification.adapter.ts": "./adapters/notification.adapter.ts"
+    "./adapters/notification.adapter.ts": "./adapters/notification.adapter.ts",
+    "./services/blips": "./services/blips.ts",
+    "./types/blips.types": "./types/blips.types.ts"
   },
   "dependencies": {
     "@brz-fivem-sdk/common": "^0.1.1"
