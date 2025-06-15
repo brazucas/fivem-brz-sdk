@@ -3,7 +3,9 @@
   "scripts": {
     "test": "jest",
     "prepublish:server": "npm version patch --workspace packages/server",
-    "publish:server": "npm publish --workspace packages/server --access public"
+    "publish:server": "npm publish --workspace packages/server --access public",
+    "prebuild": "rimraf packages/server/modules",
+    "build": "node build/build-bundle.js"
   },
   "workspaces": [
     "packages/*"
@@ -13,6 +15,7 @@
     "@citizenfx/server": "^2.0.7669-1",
     "@types/jest": "27",
     "@types/node": "^16.0.0",
+    "esbuild": "^0.25.5",
     "jest": "27",
     "ts-jest": "27"
   },
