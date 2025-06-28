@@ -39,4 +39,15 @@ export type CreateCircleZoneInput = {
   onPlayerInOut?: (inside: boolean) => void;
 };
 
+export type PolyZoneAdapter = {
+  createBoxZone: (input: CreateBoxZoneInput) => PolyZone;
+  createCircleZone: (input: CreateCircleZoneInput) => PolyZone;
+};
+
+export type PolyZoneAdapters = {
+  [key in AdapterName]: PolyZoneAdapter;
+};
+
+export type AdapterName = "qbTarget" | "polyZone";
+
 export type PolyZone = any & { __opaque__: "PolyZone" };

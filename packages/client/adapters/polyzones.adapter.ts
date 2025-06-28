@@ -2,9 +2,10 @@ import {
   CreateBoxZoneInput,
   CreateCircleZoneInput,
   PolyZone,
+  PolyZoneAdapter,
 } from "../types/polyzone.types";
 
-export const polyzoneAdapter = {
+export const polyzoneAdapter: PolyZoneAdapter = {
   createBoxZone: (input: CreateBoxZoneInput): PolyZone => {
     const zone = exports["PolyZone"]
       .BoxZone?.()
@@ -35,7 +36,7 @@ export const polyzoneAdapter = {
   },
 };
 
-export const qbTargetAdapter = {
+export const qbTargetAdapter: PolyZoneAdapter = {
   createBoxZone: (input: CreateBoxZoneInput): PolyZone => {
     const zone = exports["qb-target"]?.AddBoxZone(
       input.id,
