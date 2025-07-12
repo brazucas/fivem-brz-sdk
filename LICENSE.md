@@ -8,7 +8,7 @@ You are free to:
 
 - Share — copy and redistribute the material in any medium or format
 
-Under the following terms:
+*Under* the following terms:
 
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 - **NonCommercial** — You may not use the material for commercial purposes.
